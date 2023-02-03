@@ -6,7 +6,7 @@ import '../css/Button.css';
 
 export default function Home () {
   return (
-    <div className='flex flex-col justify-center'>          
+    <div className='flex flex-col justify-center'>                     
       <Carousel />     
       <div className="w-full flex flex-col flex-wrap bg-yellow-100 mt-3.5 p-1">   
         <div className="flex items-center justify-between">
@@ -15,7 +15,7 @@ export default function Home () {
           >
             Imóveis à venda
           </h2>          
-          <Link className="btn mr-12 " to="/comprar">Ver mais</Link>   
+          <Link className="btn mr-12 " to="/imoveis/a-venda">Ver mais</Link>   
         </div>        
         <div className="w-full flex items-center justify-center flex-wrap gap-10">
           <Cards />
@@ -29,7 +29,7 @@ export default function Home () {
           >
             Imóveis para alugar
           </h2>          
-          <Link className="btn mr-12" to="/alugar">Ver mais</Link>   
+          <Link className="btn mr-12" to="/imoveis/alugar">Ver mais</Link>   
         </div>        
         <div className="w-full flex items-center justify-center flex-wrap gap-10">
           <Cards />

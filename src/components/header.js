@@ -17,7 +17,7 @@ export default function Header() {
         <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/imoveis/a-venda">Comprar</Link>
         <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/imoveis/alugar">Alugar</Link>
         <li className="font-bold hover:text-yellow-900 hover:cursor-pointer list-none">Serviços</li>
-        <li className="font-bold hover:text-yellow-900 hover:cursor-pointer list-none">Blog</li>   
+        <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/blog">Blog</Link>   
         <li className="font-bold hover:text-yellow-900 hover:cursor-pointer list-none">Contato</li>        
       </nav>      
     </header>
