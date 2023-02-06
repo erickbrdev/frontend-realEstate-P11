@@ -5,7 +5,7 @@ import '../css/Feature.css';
 
 export default function Feature() {
   return (
-    <Link className="main flex flex-col my-2.5" to="/blog">
+    <Link className="main flex flex-col mt-5" to="/blog">
         <div className="main-image flex p-2">
         <img
           src={ apartamento }

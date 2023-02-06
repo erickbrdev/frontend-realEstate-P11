@@ -5,6 +5,7 @@ import Home from './pages/home.js';
 import Purchase from './pages/purchase.js';
 import Rent from './pages/rent.js';
 import Blog from './pages/blog.js';
+import Adress from './components/adress.js';
 
 export default function App () {       
     return(
@@ -16,6 +17,7 @@ export default function App () {
           <Route path="/imoveis/alugar" component={ Rent }/>
           <Route path="/blog" component={ Blog }/>
         </Switch>
+        <Adress/>
         <Footer/>
       </div>
     )

@@ -9,7 +9,7 @@ export default function Header() {
         <img 
           src={ logotipo }
           alt="logotipo da empresa"
-          className="h-16 p-0.5 rounded-3xl"
+          className="h-16 p-0.5 rounded-full"
         />
       </div>      
       <nav id="menu-nav" className="flex gap-4">
