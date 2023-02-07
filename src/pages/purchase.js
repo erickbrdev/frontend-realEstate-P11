@@ -5,10 +5,7 @@ export default function Purchase () {
     <main className="flex items-center justify-around">
       <section>
         <Filter />
-      </section>
-      <section>
-        <Filter />
-      </section>
+      </section>     
     </main>
   )
 }

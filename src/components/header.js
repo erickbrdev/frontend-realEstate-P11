@@ -9,7 +9,7 @@ export default function Header() {
         <img 
           src={ logotipo }
           alt="logotipo da empresa"
-          className="h-16 p-0.5 rounded-full"
+          className="h-16 p-1 rounded-full"
         />
       </div>      
       <nav id="menu-nav" className="flex gap-4">
@@ -18,7 +18,7 @@ export default function Header() {
         <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/imoveis/alugar">Alugar</Link>
         <li className="font-bold hover:text-yellow-900 hover:cursor-pointer list-none">Serviços</li>
         <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/blog">Blog</Link>   
-        <li className="font-bold hover:text-yellow-900 hover:cursor-pointer list-none">Contato</li>        
+        <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/contato">Contato</Link>        
       </nav>      
     </header>
   )

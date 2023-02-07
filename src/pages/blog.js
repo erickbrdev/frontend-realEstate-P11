@@ -67,6 +67,19 @@ export default function Blog() {
             Saber bem o que você quer vai diminuir as chances de acabar se mudando para um local equivocado. Depois de pensar em tudo o que é importante para você e avaliar suas possibilidades, vale a pena colocar tudo no papel para visualizar melhor o cenário geral e funciona como uma bússola para cada passo da procura.
           </p>
         </div>        
+        <br/>
+        <div className="bg-yellow-100">
+        <h3 
+          className="font-bold text-lg  hover:text-yellow-900 border-b-2 border-yellow-200 text-center"
+        >
+           Não deixe de lado o lazer e a vida social
+        </h3>
+          <p className="mx-5">
+            Sabemos que as preocupações diárias existem, pensando nisso, não podemos abrir mão de um pouco de diversão. Por isso, um dos pontos que precisam ser observados no momento de escolher um bairro para morar é o lazer que o local tem a oferecer 
+            <br/>
+            Assim, você deve buscar por bairros que contem fácil acesso a parques, cinemas, shoppings, teatros, bares e restaurantes, clubes e locais que você procura para se divertir com a família e amigos.
+          </p>
+        </div>        
       </section>
     </div>
   )

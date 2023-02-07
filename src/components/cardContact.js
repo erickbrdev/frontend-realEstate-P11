@@ -19,13 +19,13 @@ export default function Contact() {
       <div className="ml-5 flex flex-col items-center justify-center">
         <Link className="font-bold hover:text-yellow-900 mt-2">Serviços</Link>
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/blog">Blog</Link>
-        <Link className="font-bold hover:text-yellow-900 mt-2">Contato</Link>         
+        <Link className="font-bold hover:text-yellow-900 mt-2" to="/contato">Contato</Link>         
       </div>
       <div className="flex gap-7">      
-        <InstagramButton/>
-        <FacebookButton/>
-        <LinkedinButton/>
-        <YoutubeButton/>
+        <InstagramButton />
+        <FacebookButton />
+        <LinkedinButton />
+        <YoutubeButton />
         <WhatsappButton/> 
       </div>    
       <div>

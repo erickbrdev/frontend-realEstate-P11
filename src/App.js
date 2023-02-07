@@ -6,6 +6,7 @@ import Purchase from './pages/purchase.js';
 import Rent from './pages/rent.js';
 import Blog from './pages/blog.js';
 import Adress from './components/adress.js';
+import Contact from './pages/contact.js';
 
 export default function App () {       
     return(
@@ -16,6 +17,7 @@ export default function App () {
           <Route path="/imoveis/a-venda" component={ Purchase }/>
           <Route path="/imoveis/alugar" component={ Rent }/>
           <Route path="/blog" component={ Blog }/>
+          <Route path="/contato" component={ Contact }/>
         </Switch>
         <Adress/>
         <Footer/>
