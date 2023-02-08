@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
-import casaHero from "../assets/casaHero.jpg"
-import casaChamativa from "../assets/casaChamativa.jpg"
-import sonhoCasa from "../assets/sonhoCasa.jpg"
-import realizaçãoCasa from "../assets/realizaçãoCasa.jpg"
+import casaHero from "../assets/casaHero.jpg";
+import realizaçãoCasa from "../assets/realizaçãoCasa.jpg";
 
 export default function Carousel() {
   const [index, setIndex] = useState(0);
-  const images = [casaHero, casaChamativa, sonhoCasa, realizaçãoCasa];
+  const images = [casaHero, realizaçãoCasa];
 
   useEffect(() => {
     const intervalId = setInterval(() => {

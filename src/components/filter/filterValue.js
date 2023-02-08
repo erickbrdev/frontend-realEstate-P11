@@ -9,7 +9,7 @@ export default function FilterValue () {
           type="text" 
           maxlength="14" 
           name="valor_min" 
-          placeholder="Indefere"
+          placeholder="mín."
           className="border-2 border-yellow-400 w-20 p-0.5 rounded-lg"
         />
       </div>
@@ -20,7 +20,7 @@ export default function FilterValue () {
           type="text" 
           maxlength="14" 
           name="valor_max" 
-          placeholder="Indefere"
+          placeholder="max."
           className="border-2 border-yellow-400 w-20 p-0.5 rounded-lg"
         />
       </div>

@@ -1,6 +1,6 @@
 import React from "react"
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube, FaWhatsapp} from 'react-icons/fa';
-import '../css/ButtonContact.css'
+
 
 export const WhatsappButton = () => {
   const handleClick = () => {
@@ -9,8 +9,8 @@ export const WhatsappButton = () => {
 
   return (
     <div>
-      <button onClick={handleClick} className="buttonContact">
-        <FaWhatsapp className="hover:text-yellow-900"/>
+      <button onClick={handleClick} >
+        <FaWhatsapp className="hover:text-yellow-900" size={35}/>
       </button>
     </div>
   )
@@ -24,7 +24,7 @@ export const InstagramButton = () => {
 
   return (
     <div>
-      <button onClick={handleClick} className="buttonContact">
+      <button onClick={handleClick} >
         <FaInstagram className="hover:text-yellow-900"/>
       </button>
     </div>
@@ -38,7 +38,7 @@ export const FacebookButton = () => {
 
   return (
     <div>
-      <button onClick={handleClick} className="buttonContact">
+      <button onClick={handleClick} >
         <FaFacebook className="hover:text-yellow-900"/>
       </button>
     </div>
@@ -52,7 +52,7 @@ export const LinkedinButton = () => {
 
   return (
     <div>
-      <button onClick={handleClick} className="buttonContact">
+      <button onClick={handleClick} >
         <FaLinkedin className="hover:text-yellow-900"/>
       </button>
     </div>
@@ -66,7 +66,7 @@ export const YoutubeButton = () => {
 
   return (
     <div>
-      <button onClick={handleClick} className="buttonContact">
+      <button onClick={handleClick} >
         <FaYoutube className="hover:text-yellow-900" />
       </button>
     </div>

@@ -1,7 +1,6 @@
 import React from "react"
 import logotipo from "../assets/logotipo.jpeg"
 import { Link } from "react-router-dom"
-import { WhatsappButton, InstagramButton, FacebookButton, LinkedinButton, YoutubeButton } from "./buttonsContact"
 
 export default function Contact() {
   return (
@@ -20,19 +19,12 @@ export default function Contact() {
         <Link className="font-bold hover:text-yellow-900 mt-2">Serviços</Link>
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/blog">Blog</Link>
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/contato">Contato</Link>         
-      </div>
-      <div className="flex gap-7">      
-        <InstagramButton />
-        <FacebookButton />
-        <LinkedinButton />
-        <YoutubeButton />
-        <WhatsappButton/> 
-      </div>    
+      </div>      
       <div>
         <p 
-          className="italic text-2xl font-bold text-neutral-900 hover:text-yellow-900 border-yellow-400 border-2 p-2"
+          className="italic text-2xl font-bold text-neutral-900 border-b-2 border-yellow-400 p-2"
         >
-          Um novo lar para seus sonhos!
+          Não perca mais tempo, venha para a nossa imobiliária e realize o sonho da casa própria agora mesmo!
         </p>
       </div>
     </footer> 

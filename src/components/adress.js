@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import {CiLocationOn} from "react-icons/ci"
 
 export default function Adress () {
-  return (
-    <div className="flex flex-col gap-3 mt-6 bg-yellow-100">
-      <section className="flex flex-col gap-3 mx-5 bg-yellow-100">
+  return (    
+    <div className="flex flex-col gap-3 bg-yellow-100 w-4/6">
+      <section className="flex flex-col gap-3 mx-5 bg-yellow-100 w-content">
         <div className="flex items-center">
           <div className="flex items-center">        
             <h2 className="font-bold text-xl border-b-2 border-yellow-400">Próspero 11</h2>
@@ -26,6 +26,10 @@ export default function Adress () {
           <p>Ponto de refeência</p>
           <p>7777-777</p>
         </a>
+        <div className="flex flex-col justify-center w-5/6">
+          <h3 className="font-bold text-lg">Horário de atendimento</h3>
+          <p>De segunda a sábado: de 08h às 21h</p>
+        </div> 
         <div className="flex flex-col justify-center w-1/4">
           <h3 className="font-bold text-lg">Telefones</h3>
           <Link to="/contato" className=" hover:text-yellow-900">(22)9999-9999</Link>
