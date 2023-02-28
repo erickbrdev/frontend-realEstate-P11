@@ -1,5 +1,5 @@
 import { 
-  WhatsappButton, InstagramButton, FacebookButton, LinkedinButton, YoutubeButton 
+   InstagramButton, FacebookButton, LinkedinButton, YoutubeButton 
 } from "./buttonsContact"
 
 export default function SocialMedia() {
@@ -10,8 +10,7 @@ export default function SocialMedia() {
           <InstagramButton />
           <FacebookButton />
           <LinkedinButton />
-          <YoutubeButton />
-          <WhatsappButton/> 
+          <YoutubeButton />        
         </div>      
        
       </div>    

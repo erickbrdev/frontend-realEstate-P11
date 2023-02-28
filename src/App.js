@@ -32,8 +32,7 @@ export default function App () {
         <span className='flex bg-yellow-100 justify-evenly mt-6 p-2'>
           <Adress/> 
           <SocialMedia/> 
-        </span>        
-                  
+        </span>                      
         <Footer/>
       </div>
     )

@@ -6,7 +6,7 @@ export default function Rent () {
     <main className="flex">
       <section className="w-full flex justify-center gap-5 mt-20 mx-5">
         <Filter />
-        <Properties />
+        <Properties title="Imóveis para locação" />
       </section>     
     </main>
   )

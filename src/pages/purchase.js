@@ -6,7 +6,7 @@ export default function Purchase () {
     <main className="flex">
       <section className="w-full flex justify-center gap-5 mt-20 mx-5">
         <Filter />
-        <Properties />
+        <Properties title="Imóveis a venda" />
       </section>     
     </main>
   )

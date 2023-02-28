@@ -6,7 +6,7 @@ import FilterSpace from "./filter/filterSpace"
 
 export default function Filter() {
   return (
-    <main className="flex flex-col items-start p-2 h-max  bg-yellow-100 w-80 rounded-lg">        
+    <main className="flex flex-col items-start p-2 h-max  bg-yellow-100 w-72 rounded-lg">        
       <FilterOptions />
       <FilterLocal />
       <FilterType />

@@ -4,7 +4,7 @@ import logotipo from "../assets/logotipo.jpeg"
 
 export default function Header() {
   return (
-    <header className="flex justify-around items-center bg-yellow-400 h-16 fixed w-full z-10">            
+    <header className="flex justify-around items-center bg-yellow-400 h-16 fixed w-full z-10"  id="inicio">            
       <div id="logo">
         <img 
           src={ logotipo }
@@ -16,7 +16,7 @@ export default function Header() {
         <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/">Início</Link>
         <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/imoveis/a-venda">Comprar</Link>
         <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/imoveis/alugar">Alugar</Link>
-        <li className="font-bold hover:text-yellow-900 hover:cursor-pointer list-none">Serviços</li>
+        <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/servicos">Serviços</Link>
         <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/blog">Blog</Link>   
         <Link className="font-bold hover:text-yellow-900 hover:cursor-pointer" to="/contato">Contato</Link>        
       </nav>      

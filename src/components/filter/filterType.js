@@ -20,7 +20,7 @@ export default function FilterType () {
           <input type="checkbox" id="sitio" value="sitio"/>
         </div>
         <div className="flex gap-1 items-center">
-          <label htmlFor="terreno">Terrenos</label>
+          <label htmlFor="terreno">Terreno</label>
           <input type="checkbox" id="terreno" value="terreno"/>
         </div>
         <div className="flex gap-1 items-center">

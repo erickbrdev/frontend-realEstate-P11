@@ -11,12 +11,14 @@ export default function Contact() {
         className="h-36 rounded-full p-3 "
       />
       <div className="ml-5 flex flex-col items-center justify-center">
-        <Link className="font-bold hover:text-yellow-900 mt-2" to="/">Início</Link>
+        <Link className="font-bold hover:text-yellow-900 mt-2" to="/">
+          <a href="#inicio">Início</a>
+        </Link>
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/imoveis/a-venda">Comprar</Link>
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/imoveis/alugar">Alugar</Link>         
       </div>
       <div className="ml-5 flex flex-col items-center justify-center">
-        <Link className="font-bold hover:text-yellow-900 mt-2">Serviços</Link>
+        <Link className="font-bold hover:text-yellow-900 mt-2" to="/servicos">Serviços</Link>
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/blog">Blog</Link>
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/contato">Contato</Link>         
       </div>      
