@@ -22,7 +22,7 @@ export default function Contact() {
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/blog">Blog</Link>
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/contato">Contato</Link>         
       </div>      
-      <div>
+      <div className="phrase-mobile">
         <p 
           className="italic text-2xl font-bold text-neutral-900 border-b-2 border-yellow-400 p-2"
         >

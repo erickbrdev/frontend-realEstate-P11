@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import '../css/Card.css';
 
 export default function Cards(props) {  
+  const { description } = props
   return (
-  <Link class="card">
+  <Link class="card" to={`/${props.id}${props.city}${props.category}`}>
     <div class="card-img">
       <img 
         className="w-full h-96 rounded-lg"
@@ -13,13 +14,15 @@ export default function Cards(props) {
       />
     </div>
     <div class="card-info">
-      <p class="font-black"> {props.city}</p>
-      <p class="font-black text-md">{props.place}</p>
-      <p class="text-body">{props.description}</p>
+      <p class="font-black description-mobile"> {props.city}</p>
+      <p class="font-black text-md description-mobile">{props.place}</p>
+      <ul class="text-body mt-3 flex flex-col gap-2 h-80 description-mobile">
+        {description}
+      </ul>
     </div>
     <div class="card-footer">
-      <p class="text-title">{props.category}</p>      
-      <p class="text-title">{`R$ ${props.price}`}</p>  
+      <p class="text-title description-mobile">{props.category}</p>      
+      <p class="text-title description-mobile">{`R$ ${props.price}`}</p>  
     </div>
   </Link>
   )

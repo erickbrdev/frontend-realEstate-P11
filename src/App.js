@@ -5,15 +5,16 @@ import Home from './pages/home.js';
 import Purchase from './pages/purchase.js';
 import Rent from './pages/rent.js';
 import Blog from './pages/blog.js';
-import Adress from './components/adress.js';
+// import Adress from './components/adress.js';
 import Contact from './pages/contact.js';
 import whatsappIcon from './assets/whatsappIcon.png'
 import SocialMedia from './components/socialMedia.js';
 import "./css/WhatsappIcon.css"
+import "./mobile.css"
 
 export default function App () {       
     return(
-      <div>
+      <div className="mobile-app">
         <Header/>
         <a 
           target="_blank" 
@@ -30,7 +31,7 @@ export default function App () {
           <Route path="/contato" component={ Contact }/>
         </Switch>
         <span className='flex bg-yellow-100 justify-evenly mt-6 p-2'>
-          <Adress/> 
+          
           <SocialMedia/> 
         </span>                      
         <Footer/>

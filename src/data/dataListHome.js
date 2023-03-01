@@ -9,7 +9,9 @@ export function DataListPurchase() {
           key= { index }
           city= { imoveis.city }
           place= { imoveis.place }
-          description = { imoveis.description } 
+          description = { imoveis.description.map((item, index) => {
+            return <p key={index}>{item}</p>
+          }) } 
           category= { imoveis.category }
           price = { imoveis.price }
           image = { imoveis.image }
@@ -27,7 +29,9 @@ export function DataListRent() {
           key= { index }
           city= { imoveis.city }
           place= { imoveis.place }
-          description = { imoveis.description } 
+          description = { imoveis.description.map((item, index) => {
+            return <p key={index}>{item}</p>
+          }) } 
           category= { imoveis.category }
           price = { imoveis.price }
           image = { imoveis.image }

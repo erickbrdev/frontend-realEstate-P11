@@ -18,11 +18,11 @@ export default function Carousel() {
   }, [images.length]);
 
   return (
-    <div className="w-full h-3/6 mt-20 flex justify-center items-center">
+    <div className="w-full h-3/6 mt-20 flex justify-center items-center carousel-mobile">
       <img 
         src={images[index]} 
         alt="Imagens de casas"
-        className="w-4/6 h-96 rounded-2xl"
+        className="w-4/6 h-96 rounded-2xl images-carousel-mobile"
       />
     </div>
   )

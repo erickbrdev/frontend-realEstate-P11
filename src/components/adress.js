@@ -4,7 +4,7 @@ import {CiLocationOn} from "react-icons/ci"
 
 export default function Adress () {
   return (    
-    <div className="flex flex-col gap-3 bg-yellow-100 w-4/6">
+    <div className="flex flex-col gap-3 bg-yellow-100 w-full">
       <section className="flex flex-col gap-3 mx-5 bg-yellow-100 w-content">
         <div className="flex items-center">
           <div className="flex items-center">        

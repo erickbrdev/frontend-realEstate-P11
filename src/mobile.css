@@ -1,0 +1,125 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+ 
+.mobile-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.phrase-mobile {
+  display: none;
+}
+
+.mobile-header {
+  display: flex;
+  flex-flow: row ;
+}
+
+.mobile-w-footer {
+  width: 100%;
+}
+
+.networks-mobile{
+  width: 100%;
+}
+
+.nav-mobile {
+  display: flex;  
+  flex-flow: flex wrap; 
+}
+
+.carousel-mobile {
+  margin-top: 6.5em;
+}
+
+.mobile-list-property {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}  
+
+.mobile-section-property {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-filter {
+  display: none;
+}
+
+.mobile-title {
+  border: none;
+}
+
+.mobile-cod-property {
+  display: flex;
+  flex-flow: column wrap;  
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card {
+  width: 100%;
+}
+
+.copyright-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.description-mobile {
+  font-size: 2em;
+}
+
+.list-purchase-mobile {
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-rent-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-property-home-mobile {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  width: 100%;
+}
+.section-home-mobile{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1%;
+  justify-content: center;
+}
+
+.feature-home-mobile { 
+  width: 65%;
+}
+}
+
+@media (max-width: 500px) {
+
+.card {
+  width: 100%;
+}
+} 

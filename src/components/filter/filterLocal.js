@@ -4,8 +4,7 @@ export default function FilterLocal () {
       <h3 className="font-bold text-lg">Onde?</h3>
       <input list="cities" name="city" id="city"  className="border-2 border-black p-1 rounded-md"/>
       <datalist id="cities">        
-        <option value="Araruama"/>
-        <option value="Cabo-Frio"/>
+        <option value="Araruama"/>       
         <option value="Saquarema"/>
       </datalist>                
     </div> 
