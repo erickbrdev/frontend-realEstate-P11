@@ -81,7 +81,7 @@
 }
 
 .description-mobile {
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 .list-purchase-mobile {
@@ -115,6 +115,15 @@
 .feature-home-mobile { 
   width: 65%;
 }
+
+.blog-mobile {
+  display: flex;
+  flex-flow: column;
+}
+
+.textarea-mobile {
+  width: 20rem;
+} 
 }
 
 @media (max-width: 500px) {

@@ -18,7 +18,7 @@ export default function Contact() {
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/imoveis/alugar">Alugar</Link>         
       </div>
       <div className="ml-5 flex flex-col items-center justify-center">
-        <Link className="font-bold hover:text-yellow-900 mt-2" to="/servicos">Serviços</Link>
+        {/* <Link className="font-bold hover:text-yellow-900 mt-2" to="/servicos">Serviços</Link> */}
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/blog">Blog</Link>
         <Link className="font-bold hover:text-yellow-900 mt-2" to="/contato">Contato</Link>         
       </div>      

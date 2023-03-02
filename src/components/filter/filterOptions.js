@@ -7,10 +7,10 @@ export default function FilterOptions () {
           <label htmlFor="venda">Venda</label>
           <input type="radio" id="venda" value="Venda" name="opção"/>          
         </div>
-        <div className="flex gap-1 items-center">
+       {/* <div className="flex gap-1 items-center">
           <label htmlFor="aluguel">Locação</label>
           <input type="radio" id="aluguel" value="Aluguel" name="opção"/>
-        </div>
+        </div>  */}
       </div>
     </div>    
   )

@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import '../css/Card.css';
 
-export default function Cards(props) {  
-  const { description } = props
+export default function Cards(props) {   
+  const { description, id } = props
+  console.log(id) 
   return (
-  <Link class="card" to={`/${props.id}${props.city}${props.category}`}>
+  <Link class="card" to={`/${id}`}>
     <div class="card-img">
       <img 
         className="w-full h-96 rounded-lg"

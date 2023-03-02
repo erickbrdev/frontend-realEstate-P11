@@ -1,12 +1,10 @@
-import React, { useEffect, useStatus } from 'react'
-import ImmobileContext from './ImmobileContext'
-import PropTypes from 'prop-types'
-
-// export function filterImmobile();
-
+import React, { useEffect, useStatus } from 'react';
+import ImmobileContext from './ImmobileContext';
+import PropTypes from 'prop-types';
+import imoveis from '../data/dataList';
 export default function Provider (children) {
-  const [immobile, setImmobile] = useStatus([]);
-
+  const [immobile, setImmobile] = useStatus(imoveis); 
+  
   const state = {
     immobile,
     setImmobile

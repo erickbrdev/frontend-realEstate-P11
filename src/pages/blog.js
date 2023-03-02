@@ -3,7 +3,7 @@ import apartamentoBlog from "../assets/apartamentoBlog.jpg"
 
 export default function Blog() {
   return (
-    <div className = "flex">
+    <div className = "flex blog-mobile">
       <section className="mt-20 flex flex-col justify-center items-center">
         <div className="bg-yellow-100 h-full mx-2">
           <img 

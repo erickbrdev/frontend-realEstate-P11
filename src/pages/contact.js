@@ -78,7 +78,7 @@ export default function Contact () {
               placeholder="Digite sua mensagem!" 
               id="text" 
               onChange={handleChangeMessage}
-              className=" border-2 p-2 rounded-xl border-yellow-500"
+              className=" border-2 p-2 rounded-xl border-yellow-500 textarea-mobile"
               value={message}
             >
             </textarea>

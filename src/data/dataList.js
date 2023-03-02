@@ -1,13 +1,13 @@
 import { imoveis } from "./data";
 import Cards from "../components/cards";
-import React from "react";
+// import React, { useContext } from "react";
 
-export default function DataList() {   
+export default function DataList() {  
   return (         
     imoveis.map((imoveis, index) => {
       return (      
         <Cards        
-          id={ imoveis.id }             
+          id ={ imoveis.id }             
           key= { index }
           image= { imoveis.image }
           city= { imoveis.city }

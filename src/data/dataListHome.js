@@ -5,8 +5,9 @@ export function DataListPurchase() {
   return (         
     imoveis.slice(0,4).map((imoveis, index) => {
       return (      
-        <Cards             
+        <Cards          
           key= { index }
+          id = { imoveis.id }   
           city= { imoveis.city }
           place= { imoveis.place }
           description = { imoveis.description.map((item, index) => {
@@ -27,6 +28,7 @@ export function DataListRent() {
       return (      
         <Cards             
           key= { index }
+          id = { imoveis.id }  
           city= { imoveis.city }
           place= { imoveis.place }
           description = { imoveis.description.map((item, index) => {

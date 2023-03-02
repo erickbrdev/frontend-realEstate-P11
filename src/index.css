@@ -21,3 +21,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .icon {
+  position: absolute;
+  z-index: 50;
+  left: 1%;
+  width: fit-content;
+  height: 44px;
+  cursor: pointer;
+}
+
+.hamburguer {
+  top: 50%;
+  left: 10%;
+  width: 30px;
+  height: 6px;
+  background-color: white;
+  position: absolute;
+  box-shadow:  0 2px 5px black;
+  transition: 0.5s;
+}
+
+.hamburguer::before {
+  top: -12px;
+  content: '';
+  position: absolute;
+  width: 37px;
+  height: 6px;
+  background-color: white;
+  box-shadow:  0 2px 5px black;
+  transition: 0.5s;
+}
+
+.hamburguer::after {
+  top: 12px;
+  content: '';
+  position: absolute;
+  width: 37px;
+  height: 6px;
+  background-color: white;
+  box-shadow:  0 2px 5px black;
+  transition: 0.5s;
+}
+
+.icon.iconActive .hamburguer {
+  background: transparent;
+  box-shadow: 0 2px 5px transparent;  
+}
+
+.icon.iconActive .hamburguer:after {
+  top: 0;
+  background-color: white;
+  transform: rotate(225deg);
+  box-shadow: 0 -2px 5px black;
+}
+
+.icon.iconActive .hamburguer:before {
+  top: 0;
+  background-color: white;
+  transform: rotate(135deg);
+  box-shadow: 0 -2px 5px black;
+}
+
+.menu.menuOpen {
+  width: 150px;
+  height: 150px;
+  background: black;
+  box-shadow: 10px 0px 69px 0px gray;
+}
+
+.menu.menuClosed {
+  display: none;
+  width: 0px;
+} */
