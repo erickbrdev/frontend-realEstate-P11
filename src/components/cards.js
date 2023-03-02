@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import '../css/Card.css';
 
 export default function Cards(props) {   
-  const { description, id } = props
-  console.log(id) 
+  const { description, id } = props  
   return (
   <Link class="card" to={`/${id}`}>
     <div class="card-img">

@@ -1,8 +1,11 @@
 import { imoveis } from "./data";
 import Cards from "../components/cards";
 // import React, { useContext } from "react";
+// import ImmobileContext from "../context/ImmobileContext";
 
 export default function DataList() {  
+  // const { filterImmobiles } = useContext(ImmobileContext)
+
   return (         
     imoveis.map((imoveis, index) => {
       return (      

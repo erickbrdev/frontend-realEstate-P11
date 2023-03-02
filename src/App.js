@@ -30,8 +30,7 @@ export default function App () {
           <Route path="/blog" component={ Blog }/>
           <Route path="/contato" component={ Contact }/>
         </Switch>
-        <span className='flex bg-yellow-100 justify-evenly mt-6 p-2'>
-          
+        <span className='flex bg-yellow-100 justify-evenly mt-6 p-2 w-full'>          
           <SocialMedia/> 
         </span>                      
         <Footer/>

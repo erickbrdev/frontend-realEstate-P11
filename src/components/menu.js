@@ -11,7 +11,7 @@ const Menu = () => {
   };
 
   return (
-    <div className="menu w-10">
+    <div className="menu flex justify-center">
       <div className="menu-icon hidden" onClick={toggleMenu}>
         <img src={hamburguer} alt="menu" className="w-10 cursor-pointer " />
       </div>
