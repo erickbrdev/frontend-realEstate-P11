@@ -11,8 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vh;
-    
+      
   }
 
   .card-footer-logo {
@@ -22,13 +21,13 @@
   }
 
   .mobile-header {
-    width: 50%;
+    width: 100%;
     position: static;  
     padding: 1em;
     display: flex;
+    flex-wrap: wrap;
     flex-flow: row;  
-    justify-content: center;
-    width: 100vh;
+    justify-content: center;  
   }
 
   .phrase-effect-mobile {
@@ -54,7 +53,7 @@
 
   .mobile-list-property {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: row;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -66,7 +65,10 @@
   }
 
   .mobile-filter {
-    display: none;
+    display: flex;
+    flex-direction: row wrap;
+    gap: 5px;    
+    width: 85%;
   }
 
   .mobile-title {
@@ -82,7 +84,7 @@
   }
 
   .card {
-    width: 75vh;
+    width: 75%;
   }
 
   .copyright-mobile {

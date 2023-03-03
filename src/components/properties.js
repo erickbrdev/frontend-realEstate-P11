@@ -4,8 +4,8 @@ export default function Properties(props) {
 
   return (
     <div className="flex items-start gap-3 h-full bg-yellow-100 w-full rounded-lg">
-      <div className="p-2">
-        <div className="flex justify-between mobile-cod-property">
+      <div className="p-2 w-full">
+        <div className="flex mobile-cod-property w-full justify-between gap-10">
           <h3 className="text-center font-bold text-xl border-b-2 border-yellow-500 mobile-title">
             {props.title}
           </h3>

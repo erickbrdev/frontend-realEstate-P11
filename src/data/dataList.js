@@ -1,13 +1,13 @@
-import { imoveis } from "./data";
 import Cards from "../components/cards";
-// import React, { useContext } from "react";
-// import ImmobileContext from "../context/ImmobileContext";
+import React, { useContext } from "react";
+import ImmobileContext from "../context/ImmobileContext";
+
 
 export default function DataList() {  
-  // const { filterImmobiles } = useContext(ImmobileContext)
+  const { filterImmobiles } = useContext(ImmobileContext)
 
   return (         
-    imoveis.map((imoveis, index) => {
+    filterImmobiles.map((imoveis, index) => {
       return (      
         <Cards        
           id ={ imoveis.id }             
