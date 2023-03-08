@@ -18,7 +18,7 @@ export const InstagramButton = () => {
 
 export const FacebookButton = () => {
   const handleClick = () => {
-    window.open("https://www.instagram.com/phelipeimoveiss/", '_blank')
+    window.open("https://www.facebook.com/phelipe.oliveira.9231", '_blank')
   };
 
   return (

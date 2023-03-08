@@ -3,7 +3,12 @@ import ImmobileContext from './ImmobileContext';
 import PropTypes from 'prop-types';
 import { imoveis } from '../data/data'
 export default function Provider ({children}) {   
-  const [filterImmobiles, setFilterImmobiles] = useState(imoveis)
+  const [filterImmobiles, setFilterImmobiles] = useState(imoveis);
+  const [detailsPropety, setDetailsProperty] = useState([]);
+
+  function renderDetailsProperty(id) {
+    setDetailsProperty(imoveis.find(property => property.id === id))    
+  } 
 
   function filterValueByType({ target }) {
     const value = target.value; 
@@ -21,12 +26,14 @@ export default function Provider ({children}) {
   },[filterImmobiles])
     
   const state = {
+    detailsPropety,
+    renderDetailsProperty,
     filterImmobiles,
     setFilterImmobiles,
     filterValueByType
   }
 
-  return <ImmobileContext.Provider value={state}>{ children }</ImmobileContext.Provider>
+  return <ImmobileContext.Provider value={ state }>{ children }</ImmobileContext.Provider>
 }
 
 Provider.propTypes = {

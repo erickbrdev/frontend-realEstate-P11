@@ -10,8 +10,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;      
+  }
+
+  .main-screen-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-      
+    align-items: center;
   }
 
   .card-footer-logo {
@@ -48,7 +55,8 @@
   }
 
   .carousel-mobile {
-    margin-top: 6.5em;
+    margin-top: 2em;
+    width: 100%;
   }
 
   .mobile-list-property {
@@ -84,7 +92,10 @@
   }
 
   .card {
-    width: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .copyright-mobile {
@@ -104,7 +115,7 @@
     flex-direction:  column;
     justify-content: center;
     align-items: center;
-    width: 100vh;
+    width: 100%;   
   }
 
   .list-rent-mobile {
@@ -112,7 +123,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vh;
+    width: 100%;
   }
 
   .btn-property-home-mobile {
@@ -121,21 +132,46 @@
     gap: 1em;
     width: 100%;
   }
+
   .section-home-mobile{
-    display: flex;
-    align-items: center;
+    display: flex;    
     width: 100%;
+    flex-wrap: wrap;
     padding: 1%;
     justify-content: center;
   }
 
-  .feature-home-mobile { 
-    width: 65%;
+  .section-home-mobile .card {
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
 
-  .blog-mobile {
+  .section-home-mobile .card .card-img {   
     display: flex;
-    flex-flow: column;
+    flex-direction: column; 
+    width: 100%;    
+  }
+
+  .section-home-mobile .card .card-info {    
+    width: 100%; 
+  }
+
+  .section-home-mobile .card .card-footer {
+    width: 100%;
+  }
+
+  .feature-home-mobile { 
+    width: 100%;
+  }
+
+  .blog-mobile {    
+    display: flex;
+    flex-flow: column;    
+  }
+
+  .blog-mobile  img {
+    height: 40rem;
   }
 
   .logotipo-mobile {

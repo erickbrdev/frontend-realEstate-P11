@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import ImmobileContext from "../context/ImmobileContext";
 import '../css/Card.css';
 
 export default function Cards(props) {   
   const { description, id } = props  
+  const { renderDetailsProperty } = useContext(ImmobileContext)
+
   return (
-  <Link class="card" to={`/${id}`}>
+  <Link class="card" to={`/${id}`} onClick={() => renderDetailsProperty(id)}>
     <div class="card-img">
       <img 
         className="w-full h-96 rounded-lg"

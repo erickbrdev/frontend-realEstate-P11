@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import familiacasa from "../assets/familiacasa.jpg";
 import familiacasa2 from "../assets/familiacasa2.jpg";
-import familiacasa3 from "../assets/familiacasa3.jpg";
 import familiacasa4 from "../assets/familiacasa4.jpg";
 import familiacasa5 from "../assets/familiacasa5.jpg";
 
 export default function Carousel() {
   const [index, setIndex] = useState(0);
-  const images = [familiacasa, familiacasa2, familiacasa3, familiacasa4, familiacasa5];
+  const images = [familiacasa, familiacasa2, familiacasa4, familiacasa5];
 
   useEffect(() => {
     const intervalId = setInterval(() => {

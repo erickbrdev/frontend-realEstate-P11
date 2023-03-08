@@ -6,7 +6,7 @@ import { DataListPurchase, DataListRent } from "../data/dataListHome";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center main-screen-mobile">
       <Carousel />
       <div className="w-full flex flex-col flex-wrap bg-yellow-100 mt-3.5 p-1 section-home-mobile">
         <div className="flex items-center justify-between btn-property-home-mobile">
