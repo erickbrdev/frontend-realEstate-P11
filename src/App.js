@@ -11,6 +11,7 @@ import whatsappIcon from './assets/whatsappIcon.png'
 import SocialMedia from './components/socialMedia.js';
 import "./css/WhatsappIcon.css"
 import "./mobile.css"
+import InfoProperty from './pages/infoProperty.js';
 
 export default function App () {       
     return(
@@ -28,7 +29,8 @@ export default function App () {
           <Route path="/imoveis/a-venda" component={ Purchase }/>
           <Route path="/imoveis/alugar" component={ Rent }/>
           <Route path="/blog" component={ Blog }/>
-          <Route path="/contato" component={ Contact }/>
+          <Route path="/contato" component={ Contact }/>        
+          <Route path="/imoveis/:id_do_imovel" component={ InfoProperty } />
         </Switch>
         <span className='flex bg-yellow-100 justify-evenly mt-6 p-2 w-full'>          
           <SocialMedia/> 

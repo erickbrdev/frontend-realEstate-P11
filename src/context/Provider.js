@@ -4,11 +4,12 @@ import PropTypes from 'prop-types';
 import { imoveis } from '../data/data'
 export default function Provider ({children}) {   
   const [filterImmobiles, setFilterImmobiles] = useState(imoveis);
-  const [detailsPropety, setDetailsProperty] = useState([]);
+  const [detailsPropety, setDetailsProperty] = useState({}); 
 
   function renderDetailsProperty(id) {
     setDetailsProperty(imoveis.find(property => property.id === id))    
-  } 
+  }  
+  console.log(detailsPropety)
 
   function filterValueByType({ target }) {
     const value = target.value; 
