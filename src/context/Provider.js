@@ -9,7 +9,6 @@ export default function Provider ({children}) {
   function renderDetailsProperty(id) {
     setDetailsProperty(imoveis.find(property => property.id === id))    
   }  
-  console.log(detailsPropety)
 
   function filterValueByType({ target }) {
     const value = target.value; 
