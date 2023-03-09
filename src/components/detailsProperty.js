@@ -1,12 +1,12 @@
 export default function DetailsProperty(props) {
   const { city, place, description, price, category, image } = props;
   return (
-    <div className="flex flex-col justify-start p-5">
-      <div className="flex justify-center overflow-x-auto">
+    <div className="flex flex-col justify-start p-5 details-mobile">
+      <div className="flex justify-center overflow-x-auto carousel-images-mobile">
         <div className="flex gap-5">{image}</div>
       </div>
-      <div className="mt-2 flex justify-around bg-yellow-200 p-5 items-center">
-        <div className="flex flex-col gap-3">
+      <div className="mt-2 flex justify-around bg-yellow-200 p-5 items-center info-mobile">
+        <div className="flex flex-col gap-3 description-mobile">
           <div className="flex gap-2">
             <p className="font-bold">Cidade:</p>
             <p>{city}</p>

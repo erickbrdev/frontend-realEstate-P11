@@ -181,4 +181,30 @@
   .textarea-mobile {
     width: 20rem;
   } 
+
+  .details-mobile {
+    width: 100%;
+  }
+
+  .info-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description-mobile {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .carousel-images-mobile {
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .mobile-property-details {
+    width: 100%;
+  }
 }
